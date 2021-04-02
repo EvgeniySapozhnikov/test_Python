@@ -12,8 +12,8 @@ def string_match(comparing_string, compared_string):
                     print('OK')
                     break
                 else:
-                    print('KO')
-                    break
+                    i+=1
+                    continue
             i+=1
             continue
         else:
